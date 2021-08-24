@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+/* global config */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* global styling */
+body {
+  line-height: 1.5em;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+#home {
+  height: 100vh;
+}
+
+.text-primary {
+  color: yellowgreen;
+  margin-left: 0;
+}
+
+.l-heading {
+  color: white;
+  font-size: 3rem;
+  padding-bottom: 60px;
+}
+
+.m-heading {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.lead {
+  color: white;
+  font-size: 1.5rem;
+  padding-bottom: 50px;
+}
+
+.showcase-content a {
+  background-color: yellowgreen;
+  padding: 10px;
+  border-radius: 10%;
+}
+
+.py-1 img {
+  max-width: 100px;
+}
+
+/* Navbar */
+#navbar {
+  display: flex;
+  position: sticky;
+  top: 0;
+  background: rgb(19, 17, 17);
+  color: #fff;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  overflow: auto;
+}
+.logo {
+  color: white;
+  text-align: left;
+}
+
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+
+#navbar ul li {
+  margin: 20px;
+  text-align: center;
+  float: left;
+}
+
+#navbar h1 {
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+/* Showcase */
+#showcase {
+  height: 600px;
+  text-align: center;
+  background: url("../img/main-background.jpg") no-repeat center center/ cover;
+}
+
+#showcase .showcase-content {
+  padding-top: 200px;
+  background: rgba(15, 14, 14, 0.4);
+  height: 600px;
+}
+
+/* Section: What We Do */
+#what .items {
+  display: flex;
+  flex-direction: row;
+  /* width: 800px; */
+  justify-content: center;
+  align-content: center;
+}
+#what .items .item {
+  width: 300px;
+}
+
+#what .items .item i {
+  background-color: yellowgreen;
+  padding: 20px;
+  border-radius: 100%;
+}
+
+/* Section: Who We Are */
+#who {
+  display: flex;
+  flex-wrap: wrap;
+  height: 600px;
+}
+
+#who .who-img {
+  background: url("../img/article.svg");
+  background-repeat: no-repeat;
+  background-size: 650px 600px;
+  overflow: hidden;
+  flex: 1;
+  margin-right: 30px;
+  flex-wrap: wrap;
+}
+.who-text {
+  flex: 1;
+}
+.who-text li {
+  list-style: none;
+  border-bottom: dotted 1px;
+  line-height: 4rem;
+  flex-wrap: wrap;
+}
+#who .who-text .m-heading {
+  font-size: 2rem;
+}
+#who .who-text h3 {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+/* Section: Clients */
+#clients .items {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
+}
+
+#clients {
+  height: 320px;
+}
+
+.bg-light {
+  height: 310px;
+  background-color: rgb(221, 215, 215);
+}
+.container h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+.container .text-primary {
+  text-align: center;
+  padding-top: 51px;
+}
+
+#clients .container .m-heading {
+  margin-top: 55px;
+}
+#main-footer .container {
+  text-align: center;
+}
+#navbar .logo {
+  float: left;
+}
+#who .list {
+  width: 605px;
+}
